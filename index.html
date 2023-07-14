@@ -1,0 +1,258 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Agdasima&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans&display=swap" rel="stylesheet">
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="../Mark5/utils.css">
+    <link rel="stylesheet" href="../Mark5/style.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shoe-Store</title>
+</head>
+<body>
+
+  <!-- header -->
+
+   <header class="header" id="header">
+    <section class="top">
+        <ul class="list1">
+            <li>Abidas</li>
+            <li class="btn">Search.... <i class="fa fa-search"></i></li>
+            <li><u>Limited Offer!</u></li>
+        </ul> 
+    </section>
+    <section class="bottom">
+         <ul class="list2">
+            <li class="pointer" onclick="toAir()"    data-id="air">AIR FORCE</li>
+            <li class="pointer" onclick="toJordan()" data-id="jordan">JORDAN</li>
+            <li class="pointer" onclick="toBlazer()" data-id="blazer">BLAZER</li>
+            <li class="pointer" onclick="toCrater()" data-id="crater">CRATER</li>
+            <li class="pointer" onclick="toHippie()" data-id="hippie">HIPPIE</li>
+         </ul>
+    </section>
+   </header>
+
+   <!-- slider -->
+   <main class="wrapper" id="main">
+    <div class="slider">
+      <div class="price">$119</div>
+      <img src="../Mark5/img/air.png" alt="" width="500px" height="500px">
+      <h1 class="name">AIR <br>NEW SEASON <button class="buy"><a href="#BuyNow">BUY NOW</a></button></h1>
+    </div>
+    <div class="slider">
+      <div class="price">$159</div>
+      <img src="../Mark5/img/jordan.png" alt="" width="500px" height="500px">
+      <h1 class="name">JORDAN <br> NEW SEASON <button class="buy"><a href="#BuyNow">BUY NOW</a></button></h1>
+    </div>
+    <div class="slider">
+      <div class="price">$109</div>
+      <img src="../Mark5/img/blazer.png" alt="" width="500px" height="500px">
+      <h1 class="name">BLAZER <br>NEW SEASON <button class="buy"><a href="#BuyNow">BUY NOW</a></button></h1>
+    </div>
+    <div class="slider">
+      <div class="price">$129</div>
+      <img src="../Mark5/img/crater.png" alt="" width="500px" height="500px">
+      <h1 class="name">CRATER <br>NEW SEASON <button class="buy"><a href="#BuyNow">BUY NOW</a></button></h1>
+    </div>
+    <div class="slider">
+      <div class="price">$99</div>
+      <img src="../Mark5/img/hippie.png" alt="" width="500px" height="500px">
+      <h1 class="name">HIPPIE <br>NEW SEASON <button class="buy"><a href="#BuyNow">BUY NOW</a></button></h1>
+    </div>
+</main>
+
+<!-- feature -->
+<section class="feature">
+   <ul class="feature">
+    <li class="free-shipping">
+      <img src="../Mark5/img/fast-delivery-icon-free-vector.jpg" alt="" width="80px" height="80px">
+      <h1>FREE SHIPPING</h1>
+      <p>Free worldwide shippings on all orders.</p>
+    </li>
+    <li class="free-shipping">
+      <img src="../Mark5/img/return.jpg" alt="" width="80px" height="80px">
+      <h1>30 DYAS RETURN</h1>
+      <p>No question return and easy return in 14 days. </p>
+    </li>
+    <li class="free-shipping">
+      <img src="../Mark5/img/gift.png" alt="" width="80px" height="80px">
+      <h1>GIFT CARDS</h1>
+      <p>Buy gift cards and use coupon codes easily.</p>
+    </li>
+    <li class="free-shipping">
+      <img src="../Mark5/img/plane.jpg" alt="" width="80px" height="80px">
+      <h1>CONTACT US!</h1>
+      <p>Keep in touch via email and support system.</p>
+    </li>
+   </ul>
+</section>
+
+<!-- shoe-description -->
+
+<section class="product-description" id="BuyNow">
+
+  <div  class="image display" id="air">
+    <div class="flex">
+      <div class="images"> 
+    <img src="../Mark5/img/air2.png" alt="air" class="shoe-color" id="air-blue">
+    <img src="../Mark5/img/air.png" alt="air" class="shoe-color"  id="air-black">
+  </div>
+     <div class="description">
+         <h1 class="title">Air</h1>
+         <h4 class="price2">$119</h4>
+         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Facere exercitationem itaque totam, cupiditate sunt sint officia provident ut dolor maiores.</p>
+         <div class="color-box">
+          <div class="color-button color" data-id="air-black"></div>
+          <div class="color-button color2" data-id="air-blue"></div>
+        </div>
+        <div class="size">
+          <ul class="size">
+            <li>42</li>
+            <li>43</li>
+            <li>44</li>
+          </ul>
+        </div>
+         </div> 
+        </div>
+    </div>
+    
+  <div  class="image" id="jordan">
+    <div class="flex">
+      <div class="images">
+      <img src="../Mark5/img/jordan2.png" alt="air" class="shoe-color" id="jordan-green">
+      <img src="../Mark5/img/jordan.png" alt="air" class="shoe-color"  id="jordan-white">
+    </div>
+       <div class="description">
+           <h1 class="title">Jordan</h1>
+           <h4 class="price2">$159</h4>
+           <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Facere exercitationem itaque totam, cupiditate sunt sint officia provident ut dolor maiores.</p>
+           <div class="color-box">
+            <div class="color-button color5" data-id="jordan-white"></div>
+            <div class="color-button color3" data-id="jordan-green"></div>
+          </div>
+          <div class="size">
+            <ul class="size">
+              <li>42</li>
+              <li>43</li>
+              <li>44</li>
+            </ul>
+          </div>
+           </div> 
+          </div>
+  </div>
+
+  <div  class="image" id="blazer">
+    <!-- <img src="../Mark5(Incomplete)/img/blazer.png" alt="blazer" > -->
+    <div class="flex">
+      <div class="images">
+      <img src="../Mark5/img/blazer2.png" alt="air" class="shoe-color" id="blazer-green">
+      <img src="../Mark5/img/blazer.png" alt="air" class="shoe-color"  id="blazer-white">
+    </div>
+       <div class="description">
+           <h1 class="title">Blazer</h1>
+           <h4 class="price2">$109</h4>
+           <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Facere exercitationem itaque totam, cupiditate sunt sint officia provident ut dolor maiores.</p>
+           <div class="color-box">
+            <div class="color-button color7"  data-id="blazer-white"></div>
+            <div class="color-button color4" data-id="blazer-green"></div>
+          </div>
+          <div class="size">
+            <ul class="size">
+              <li>42</li>
+              <li>43</li>
+              <li>44</li>
+            </ul>
+          </div>
+           </div> 
+  </div>
+  </div>
+
+  <div  class="image" id="crater">
+    <div class="flex">
+      <div class="images">
+        <img src="../Mark5/img/crater2.png" alt="air" class="shoe-color" id="crater-white">
+        <img src="../Mark5/img/crater.png" alt="air" class="shoe-color"  id="crater-black">
+    </div>
+       <div class="description">
+           <h1 class="title">Crater</h1>
+           <h4 class="price2">$129</h4>
+           <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Facere exercitationem itaque totam, cupiditate sunt sint officia provident ut dolor maiores.</p>
+           <div class="color-box">
+            <div class="color-button color" data-id="crater-black"></div>
+            <div class="color-button color6" data-id="crater-white"></div>
+          </div>
+          <div class="size">
+            <ul class="size">
+              <li class="size-button">42</li>
+              <li class="size-button">43</li>
+              <li class="size-button">44</li>
+            </ul>
+          </div>
+        </div> 
+      </div>
+  </div>
+
+  <div  class="image" id="hippie">
+    <div class="flex">
+      <div class="images">
+        <img src="../Mark5/img/hippie2.png" alt="air" class="shoe-color" id="hippie-black">
+        <img src="../Mark5/img/hippie.png" alt="air" class="shoe-color"  id="hippie-grey">
+    </div>
+       <div class="description">
+           <h1 class="title">Hippie</h1>
+           <h4 class="price2">$99</h4>
+           <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Facere exercitationem itaque totam, cupiditate sunt sint officia provident ut dolor maiores.</p>
+           <div class="color-box">
+            <div class="color-button color"  data-id="hippie-black"></div>
+            <div class="color-button color8" data-id="hippie-grey"></div>
+          </div>
+          <div class="size">
+            <ul class="size">
+              <li class="size-button">42</li>
+              <li class="size-button">43</li>
+              <li class="size-button">44</li>
+            </ul>
+          </div>
+        </div> 
+      </div>
+  </div>
+</section>
+
+<section class="images-3">
+  <div class="image1">
+    <h1 class="headerImage">Be Yourself!</h1>
+   <img src="../Mark5/img/image-1.jpeg" alt="" width="350px" height="550px">
+  </div>
+  <div class="image2">
+    <img src="../Mark5/img/gallery2.webp" alt="" width="350px" height="550px">
+    <h1 class="headerImage" id="headerImage">This is the First Day of Your New Life</h1>
+  </div>
+  <div class="image3">
+    <h1 class="headerImage">Just Do it!</h1>
+    <img src="../Mark5/img/gallery3.webp" alt="" width="350px" height="550px">
+  </div>
+</section> 
+
+<section class="image-4">
+  <img src="../Mark5/img/shoeImage.jpg" alt="" class="image21" width="430px" height="450px">
+  <div class="section21">
+   <h3>WINTER NEW ARRIVAL</h3>
+   <h2>NEW SEASON</h2>
+   <h1>NEW COLLECTION</h1>
+   <button class="button-style"><a href="#header">CHOOSE YOUR STYLE</a></button>
+  </div>
+  <img src="../Mark5/img/gallery3.webp" alt="" class="image22" width="430px" height="450px">
+</section>
+<hr>
+<footer>
+  adityasmjain@gmail.com
+</footer>
+<script src="script.js"></script>
+</body>
+</html>
